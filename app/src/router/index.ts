@@ -10,14 +10,21 @@ export const routes: Array<RouteRecordRaw> = [
   {
     path: '/about',
     name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    component: () => import(/* webpackChunkName: "about" */ '../views/javascript/About.vue'),
     children: [
       {
-        path: '/about/',
-        component: (resolve) => require(['@/views/About/1'], resolve)
+        path: '/about/Test',
+        name: 'Test',
+        component: () => import('../views/javascript/Test.vue')
       }
     ]
-  }
+  },
+  {
+    path: '/Test',
+    name: 'test',
+    component: () => import(/* webpackChunkName: "about" */ '../views/javascript/Test.vue')
+  },
+
 ]
 
 const router = createRouter({
