@@ -45,7 +45,7 @@ import {
   Location,
   Setting,
 } from '@element-plus/icons-vue'
-import router, { routes } from '@/router'
+import router, { routes } from '../router'
 const handleOpen = (key: string, keyPath: string[]) => {
   console.log(key, keyPath)
 }
@@ -53,7 +53,6 @@ const handleClose = (key: string, keyPath: string[]) => {
   console.log(key, keyPath)
 }
 const toPage = (name) => {
-  console.log(name, '9999name')
   if (name == 'Home') {
     name = '/'
   }

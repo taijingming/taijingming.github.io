@@ -14,5 +14,5 @@ import Menu from '@/components/Menu.vue'
 import Nav from '@/components/Nav.vue'
 </script>
 <style>
-@import './assets/style/class.css';
+@import './assets/style/app.css';
 </style>
