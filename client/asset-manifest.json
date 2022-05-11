@@ -1,0 +1,12 @@
+{
+  "vendor.js": "/client/static/js/vendor.84f2d030.chunk.js",
+  "Page.css": "/client/static/css/Page.18a19313.chunk.css",
+  "Page.js": "/client/static/js/Page.072fbd4b.chunk.js",
+  "detail-id.css": "/client/static/css/detail-id.e60b72f4.chunk.css",
+  "detail-id.js": "/client/static/js/detail-id.70d30ef2.chunk.js",
+  "detail-id-fetch.js": "/client/static/js/detail-id-fetch.d0491b3b.chunk.js",
+  "index.css": "/client/static/css/index.0192e0eb.chunk.css",
+  "index.js": "/client/static/js/index.d1441740.chunk.js",
+  "index-fetch.js": "/client/static/js/index-fetch.1e08a25f.chunk.js",
+  "runtime~Page.js": "/client/static/js/runtime~Page.cbb6d7c2.js"
+}
